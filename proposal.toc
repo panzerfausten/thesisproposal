@@ -1,9 +1,23 @@
 \contentsline {chapter}{\numberline {1.}Introducci\'on}{2}
-\contentsline {chapter}{\numberline {2.}Marco Te\'orico}{3}
-\contentsline {chapter}{\numberline {3.}Objetivos}{4}
-\contentsline {chapter}{\numberline {4.}Metodolog\'ia}{5}
-\contentsline {chapter}{\numberline {5.}Importancia de la Investigaci\'on}{6}
-\contentsline {chapter}{\numberline {6.}Limitaciones y Suposiciones}{7}
-\contentsline {chapter}{\numberline {7.}Contribuci\'on al Conocimiento}{8}
-\contentsline {chapter}{\numberline {8.}Calendario de Actividades}{9}
-\contentsline {chapter}{\numberline {9.}Introduction}{10}
+\contentsline {chapter}{\numberline {2.}Marco te\'orico}{3}
+\contentsline {section}{\numberline {2.1}Estr\'es}{3}
+\contentsline {section}{\numberline {2.2}Caracterizaci\'on fisiol\'ogica}{3}
+\contentsline {section}{\numberline {2.3}C\'omputo vestible}{3}
+\contentsline {section}{\numberline {2.4}Contexto}{4}
+\contentsline {section}{\numberline {2.5}C\'omputo vestible consciente del contexto}{4}
+\contentsline {section}{\numberline {2.6}M\'etodos de sensado}{6}
+\contentsline {section}{\numberline {2.7}Ritmo cardiáco}{6}
+\contentsline {section}{\numberline {2.8}Resistencia galvánica}{6}
+\contentsline {section}{\numberline {2.9}Parpad\'eo}{6}
+\contentsline {chapter}{\numberline {3.}Trabajo previo}{7}
+\contentsline {chapter}{\numberline {4.}Objetivos}{9}
+\contentsline {section}{\numberline {4.1}General}{9}
+\contentsline {section}{\numberline {4.2}Espec\'ificos}{9}
+\contentsline {section}{\numberline {4.3}Preguntas de investigac\'ion}{9}
+\contentsline {chapter}{\numberline {5.}Metodolog\'ia}{10}
+\contentsline {chapter}{\numberline {6.}Importancia de la investigaci\'on}{11}
+\contentsline {section}{\numberline {6.1}Escenarios de aplicaci\'on}{11}
+\contentsline {chapter}{\numberline {7.}Limitaciones y suposiciones}{12}
+\contentsline {chapter}{\numberline {8.}Contribuci\'on al conocimiento}{13}
+\contentsline {chapter}{\numberline {9.}Calendario de actividades}{14}
+\contentsline {chapter}{\numberline {10.}Referencias}{15}

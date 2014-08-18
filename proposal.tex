@@ -1,21 +1,162 @@
 \documentclass[letterpaper,12pt]{cicese}
+	\usepackage[letterpaper,left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
 	\usepackage{setspace}
 	\usepackage{graphicx}
 	\begin{document}
 	\doublespace
-	\title{Detecci\'on de Ansiedad Por Medio de C\'omputo Vestible}
+	\title{Detecci\'on de Estr\'es Por Medio de C\'omputo Vestible}
 	\author{Dari\'en Alberto Miranda Boj\'orquez}
 	\maketitle
 	\newpage
 	\tableofcontents
 	\newpage
-		\chapter{Introducci\'on}
-		\chapter{Marco Te\'orico}
+
+		\chapter{Introducci\'on} 
+			El estr\'es es un fen\'omeno que la poblaci\'on de nuestra sociedad moderna experimenta cotidianamente. S\'olo en Estados Unidos, tres cuartos de sus
+			habitantes experimentan s\'intomas relacionados con el estr\'es [1]. El estr\'es se demuestra de diferentes maneras en las personas tanto psicol\'ogica
+			como fisiol\'ogicamente. Los efectos psicol\'ogicos incluyen: ansiedad, depresi\'on, desgaste, insomnio e insatisfacci\'on [2]. La relaci\'on que tiene
+			con la ansiedad es que la ansiedad es la se\~nal psicofisiol\'ogica de que la respuesta al estr\'es ha sido iniciada.[3]
+			
+			%mas bla bla del estres (implicaciones) hablar del stimuli de que el trabajo puede generar mucho estres y sus problemas
+			%como puede llegar a ser un desorden? (post traumatic disorder)
+			%TODO
+			%computo vestible
+			Por otro lado, el c\'omputo vestible nos permite llevar computadoras con nosotros de la misma manera que llevamos la ropa puesta. Al "vestir" un dispositivo,
+			el usuario tiene acceso a una computadora que es capaz de hacer monitor de \'el mismo as\'i de su entorno por medio de sensores. Dichos sensores pueden medir entre
+			otras cosas: movimientos del cuarpo del usuario, la posici\'on del usuario, intensidad de luz, ruido, im\'agenes de su ambiente, ritmo cardiaco, capacidad
+			conductiva de la piel, distancias, entre otros. Debido a su caracter\'istica de ser vestible, se pueden hacer monitores constantes y mas precios que con
+			los sistemas tradicionales, adem\'as de ayudar en las tareas de la vida cotidiana en las que el c\'omputo tradicional de escritorio no puede alcanzar.
+			
+			El uso de c\'omputo vestible para la detecci\'on de el estr\'es abre una posibilidad para ayudar en las tareas cotidianas y reducir el riesgo a la salud mental
+			del usuario que el estr\'es asociado a las tareas representa.
+		\chapter{Marco te\'orico} 
+			A continuaci\'on, se definen los conceptos al rededeor de la naturaleza y detecci\'on del estr\'es. Los aspectos tecnol\'ogicos y psicol\'ogicos son explicados.
+			%stimuli
+			\section{Estr\'es}
+				El estr\'es puede ser visto como una carga mental o \emph{stimuli} el cual tiene una carga asociada. Esta carga puede ser positiva o negativa dependiendo
+				de la apreciaci\'on del sujeto. Cuando percibimos un \emph{stimulus} o un grupo de {stimuli} como amenzante, lo especificamos como \emph{estr\'es}[2].
+				Este es un tipo de experiencia que puede ser f\'acilmente cuantificada por medio de instrumentos psicol\'ogicos.
+				
+				El modelo descrito por [Levine y Ursin 1991] explica el proceso del estr\'es de la siguiente manera: La carga, que incluye los factores estresantes y el
+				stimuli es evaluada por el cerebro. Despu\'es de la evaluaci\'on, puede haber una respuesta al estr\'es, la cual funciona como alarma para al cerebro.
+				El cerebro puede entonces modificar el stimuli o la percepci\'on del stimuli por medio de acciones y periodos de inactividad. Por \'ultimo, la respuesta
+				fisiol\'ogica puede generar tensi\'on  o entrenamiento, dependiendo de la actividad. Un estr\'es sostenido puede llevar a una patolog\'ia (tensi\'on).
+			\section{Caracterizaci\'on fisiol\'ogica}
+				Los m\'etodos comunes para la detecci\'on del estr\'es son: 
+					\begin{itemize}
+						\item Frecuencia Card\'iaca (HR) [?????]. Normalmente, suponen que el ritmo card\'iaco aumenta durante los periodos de estr\'es. 
+						\item Respuesta Galv\'anica de la piel (GBR) [?????]. 
+					\end{itemize}
+			\section{C\'omputo vestible}
+				El c\'omputo vestible es aquel en el que la computadora es lo suficientemente pequeña para poder ser "vestida" como ropa mientras que asiste en las
+				tareas cotidianas de la vida del usuario[3i]. Algunos lugares t\'ipico del cuerpo donde son usados son: los ojos, o\'idos, brazos, piernas o torso.
+				Los individuos que usan estos dispositivos suel cargarlos f\'acilmente con ellos por largos periodos de tiempo durante el d\'ia. Al tener sensores
+				especializados, y si consideramos que el usuario puede llevar mas de uno puesto, tenemos una herramienta de sensado poderosa que es capaz de obtener
+				informaci\'on del cuerpo del individuo al mismo tiempo que provee una comunicaci\'on mas natural que aquella del c\'omputo tradicional del escritorio.
+
+			\section{Contexto}
+				El contexto es definido por Dey[6i] como toda aquella informaci\'on que puede ser utilizada para caracterizar la situaci\'on de una entidad. Donde una
+				entidad puede ser una persona, lugar u objeto computacional. El tener informaci\'on contextual permitea  los programas funcionar de una manera adaptativa,
+				en la que toma en cuenta la situaci\'on y act\'ua acorde a ella. Un ejemplo de c\'omputo contextual que usamos diaramente es el tel\'efono inteligente.
+				Si el ambiente del usuario tiene mucha luz, decide reducir el brillo de la pantalla, o bien, si se est\'a haciendo una llamada en un lugar muy ruidoso,
+				decide aplicar filtros de ruido para mejorar la calidad de la voz.
+		
+			\section{C\'omputo vestible consciente del contexto}
+				Al encontrarse cerca del usuario mientras ayuda en las tareas diarias, el c\'omputo vestible debe de hacer uso del contexto para ayudar de una manera
+				que sea significante para el usuario. De no ser as\'i, puede generar frustraci\'on y desuso. Algunas de las caracter\'isticas del c\'omputo vestible
+				con respecto al contexto que deben de tener estos dispositivos seg\'un Rhodes [7i] son las siguientes:
+				\begin{itemize}
+					\item{\emph{Portatil y al mismo tiempo operacional:}} Una computadora vestible es capaz de ser usada mientras que el usuario se encuentra
+					en movimiento. Al estar en movimiento, su contexto es much mas din\'amico: Cambia a nuevos espacios f\'isicos, encuentra nuevos objetos 
+					y gente (entidades).Los servicios e informaci\'on que requiere cambiar\'an en base a las nuevas entidades.
+				\end{itemize}
+				\begin{itemize}
+					\item{\emph{Uso en modo manos libres:}} Una computadora vestible tiene la intenc\'ion de ser operada con m\'inimo uso de las manos,
+					bas\'andose en la entrada por voz o controles con una sola mano. Liminta rel uso de los mecanismos de entrada incrementa la necesidad
+					de obtener informaci\'on contextual impl\'icitamente sensada.
+				\end{itemize}
+				\begin{itemize}
+					\item{\emph{Sensores:}} Para disminuir la entrada expl\'icita del usuario, una computadora vestible deber\'ia de utilizar senonres para
+					colectar informaci\'on acerca del ambiente del usuario. La informaci\'on obtenida directamente por los sensores en el cuerpo del
+					usuario puede ser combinada con sensonres puestos en el ambiente en aplicaciones reales.
+				\end{itemize}
+				\begin{itemize}
+					\item{\emph{Pro activo:}} Una computadora vestible debe de actuar en base al comportamiento del usuario incluso cuando el usuario no
+					est\'a expl\'icitamente utiliz\'andolo. Esta es le esencia de la computaci\'on basada en el contexto: la computadora analiza el
+					contexto de usuario y provee de tareas y servicios relevantes a las actividades del usuario interrumpiendolo s\'olo cuando es apropiado.
+				\end{itemize}
+				\begin{itemize}
+					\item{\emph{Siempre encendido:}} Una computadora vestible siempre est\'a encendida. Esto es importante para el c\'omputo consciente del contexto
+					porque la computadora vestible debe de monitorear constantemente la situaci\'on del usuario para que se pueda adaptar y responder
+					adecuadamente. Es capaz de proveer servicios \'utiles al usuario en cualquier momento.
+				\end{itemize}
+				%como se usa todo esto para dar soporte a las actividades de la vida diaria?
+			\section{M\'etodos de sensado}
+				\section{Ritmo cardiáco}
+				\section{Resistencia galvánica}
+				\section{Parpad\'eo}
+
+		\chapter{Trabajo previo}
+				Diferentes trabajos se han realizado para la detecci\'on del estr\'es. A continuaci\'on se listan algunos de los mas relevantes:
+				\begin{itemize}
+					\item{\emph{AutoSense}[4]} es un dispositivo especialmente dise\~nado para el sensado del estado del estr\'es del usuario. Posee seis diferentes
+					sensores que pueden colectar informaci\'on cardiovascular, respiratoria, térmica, de respuesta galv\'anica de la piel y de acelerometr\'ia. Los
+					datos son luego enviados por medio de una conexi\'on bluetooth a una aplicaci\'on en Android donde se realizan inferencias y provee una capa de 
+					servicio a otras aplicaciones.
+		
+					\item{\emph{FaceIt}[5]} es una herramienta que permite detectar, almacenar y recordar situaciones en las que el usuario presente ansiedad. Utiliza
+					de base la Terapia de Comportamiento Cognitiva (CBT por sus siglas en ingl\'es). Un dispositivo vestible tipo Memoto que cuelga del cuello del usuario
+					detecta por medio del ritmo cariaco los episodios de ensiedad y registro solo en esos momentos video, audio y la localizaci\'on. Posteriormente,
+					los datos son transmitidos a internet, y una p\'agina web les permite a los pacientes almacenar sus periodos y revivir las situaciones de manera
+					controlada. En este estudio indican que \emph{``Los dispositivos m\'oviles ya se han vuelto parte de nuestra vida diaria. Otras tecnolog\'ias vestibles 					se est\'an volviendo comunes"}. La investigaci\'on tambi\'en indica que: \emph{``las aplicaciones m\'oviles tienen la capacidad de incrementar
+					la autoconciencia y reducir los niveles de estr\'es"}.  que \emph{``Por estas razones, creemos que este enfoque tiene el potencial de asisistir
+					el tratamiento de comportamiento cognitivo para aquellos con ansiedad social"}.
+
+					\item{\emph{Stress@work}[6]} es un marco de trabajo para la medici\'on, entendimiento y predicci\'on y manejo del estr\'es. Utiliza la Respuesta
+					Galv\'anica de la piel y los eventos calendarizados en Microsoft Outlook para inferir y predecir periodos de estr\'es. Al detectar los periodos de
+					carga de estr\'es, da recomendaciones de recalendarizaci\'on de actividades para balancear dichas cargas.
+				\end{itemize}
 		\chapter{Objetivos}
+			\section{General}
+				\begin{enumerate}
+					\item Encontrar de que manera los dispositivos vestibles pueden ayudar a detectar periodos de estr\'es
+				\end{enumerate}
+			\section{Espec\'ificos}
+				\begin{enumerate}
+					\item Encontrar que informaci\'on contextual es la mas adecuada para detectar periodos de estr\'es.
+					\item Encontrar que dispositivos vestibles son los mas adecuados para recolectar la informaci\'on para detectar periodos de estr\'es
+					\item Desarrollar un prototipo de detecci\'on de periodos de estr\'es.
+					\item Evaluar el prototipo.
+				\end{enumerate}
+			\section{Preguntas de investigac\'ion}
+				\begin{enumerate}
+					\item >C\'omo pueden los dispositivos vestibles ayudar a detectar periodos de estr\'es?
+				\end{enumerate}
 		\chapter{Metodolog\'ia}
-		\chapter{Importancia de la Investigaci\'on}
-		\chapter{Limitaciones y Suposiciones}
-		\chapter{Contribuci\'on al Conocimiento}
-		\chapter{Calendario de Actividades}
-		\chapter{Introduction}
+				\begin{enumerate}
+					\item Revisi\'on de la literatura.
+					\item Selecci\'on de escenario de estudio.
+					\item Identificaci\'on de los tipos de se\~nales mas significativas para medir el estr\'es en el escenario seleccionado.
+					\item Revisi\'on y selecci\'on de los dispositivos vestibles disponibles en el mercado para los tipos de datos seleccionados.
+					\item Desarrollo de soluci\'on de software.
+					\item Validaci\'on del software por medio de experimentaci\'on.
+					\item Presentaci\'on de resultados.
+				\end{enumerate}
+		\chapter{Importancia de la investigaci\'on}
+			\section{Escenarios de aplicaci\'on}
+				\begin{enumerate}
+					\item Cuidadores de autismo.
+					\item Administrador de proyectos.
+					\item Cuidadores de Pacientes con demencia.
+				\end{enumerate}
+		\chapter{Limitaciones y suposiciones}
+		\chapter{Contribuci\'on al conocimiento}
+		\chapter{Calendario de actividades}
+		\chapter{Referencias}
+	%1 StressSense: detecting Stress in Unconstraner Acoustic Environments using smartphones
+	%2 A thoerical approach to stress and self-efficacy
+	%3 Stress and anxiety, 	Department of Psychophysiological Nursing, School of Nursing, University of Maryland, Baltimore.The Nursing Clinics of North America [1990, 25(4):935-943]
+	%4 AutoSense: Unobtrusively Wearable Sensor Suite for Inferring the Onset, Causality, and Consequences of Stress in the Field
+	%5
+	%6 stress@work
 	\end{document}
