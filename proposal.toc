@@ -2,13 +2,9 @@
 \contentsline {chapter}{\numberline {2.}Marco te\'orico}{3}
 \contentsline {section}{\numberline {2.1}Estr\'es}{3}
 \contentsline {section}{\numberline {2.2}Caracterizaci\'on fisiol\'ogica}{3}
-\contentsline {section}{\numberline {2.3}C\'omputo vestible}{3}
+\contentsline {section}{\numberline {2.3}C\'omputo vestible}{4}
 \contentsline {section}{\numberline {2.4}Contexto}{4}
-\contentsline {section}{\numberline {2.5}C\'omputo vestible consciente del contexto}{4}
-\contentsline {section}{\numberline {2.6}M\'etodos de sensado}{6}
-\contentsline {section}{\numberline {2.7}Ritmo cardiáco}{6}
-\contentsline {section}{\numberline {2.8}Resistencia galvánica}{6}
-\contentsline {section}{\numberline {2.9}Parpad\'eo}{6}
+\contentsline {section}{\numberline {2.5}C\'omputo vestible consciente del contexto}{5}
 \contentsline {chapter}{\numberline {3.}Trabajo previo}{7}
 \contentsline {chapter}{\numberline {4.}Objetivos}{9}
 \contentsline {section}{\numberline {4.1}General}{9}
