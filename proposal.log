@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 AUG 2014 01:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 AUG 2014 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -93,21 +93,56 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(./proposal.aux)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count93
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen113
+\captionmargin@=\dimen114
+\captionwidth=\dimen115
+\caption@tempdima=\dimen116
+\caption@indent=\dimen117
+\caption@parindent=\dimen118
+\caption@hangindent=\dimen119
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\linespread {1.0} \vski
+p \abovecaptionskip \vspace {-0.5cm} \sbox \@tempboxa {#1. #2}\ifdim \wd \@temp
+boxa >\hsize #1. #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \bo
+x \@tempboxa \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count94
+Package caption Info: float package is loaded.
+) (./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -145,17 +180,17 @@ LaTeX Font Info:    ... okay on input line 6.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
-\scratchdimen=\dimen113
-\scratchbox=\box26
-\nofMPsegments=\count94
-\nofMParguments=\count95
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count96
-\MPscratchDim=\dimen114
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count95
+\scratchdimen=\dimen120
+\scratchbox=\box28
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen121
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks19
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -200,22 +235,17 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 10.
+(Font)              <14.4> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 10.
+(Font)              <7> on input line 12.
 
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./proposal.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
+(./proposal.toc)
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
@@ -223,29 +253,75 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
+
+Package natbib Warning: Citation `Lu2012' on page 2 undefined on input line 19.
+
+
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
+
+Package natbib Warning: Citation `Sebastian2013556' on page 2 undefined on inpu
+t line 20.
+
+
+Package natbib Warning: Citation `PMID2235645' on page 2 undefined on input lin
+e 21.
+
+
+Package natbib Warning: Citation `Bakker2012SMS' on page 2 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Ayzenberg2012' on page 2 undefined on input l
+ine 27.
+
 [2
 
 ] [3]
 Chapter 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+
+Package natbib Warning: Citation `Sebastian2013556' on page 4 undefined on inpu
+t line 45.
+
+
+Package natbib Warning: Citation `Sebastian2013556' on page 4 undefined on inpu
+t line 48.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
  [4
 
-] [5] [6]
-[7]
+]
+
+Package natbib Warning: Citation `Starner97augmentedreality' on page 5 undefine
+d on input line 62.
+
+
+Package natbib Warning: Citation `Dey2001' on page 5 undefined on input line 68
+.
+
+[5]
+
+Package natbib Warning: Citation `Rhodes97thewearable' on page 6 undefined on i
+nput line 77.
+
+[6] [7]
 Chapter 3.
 
-Overfull \hbox (4.41563pt too wide) in paragraph at lines 119--122
-[]\OT1/cmr/m/it/12 Stress@work\OT1/cmr/m/n/12 (Bakker \OT1/cmr/m/it/12 et al.\O
-T1/cmr/m/n/12 , 2012) es un marco de tra-bajo para la medici^^Son, en-tendimien
-to
- []
+Package natbib Warning: Citation `Ertin2011' on page 8 undefined on input line 
+108.
+
+
+Package natbib Warning: Citation `Rennert2013' on page 8 undefined on input lin
+e 113.
+
+
+Package natbib Warning: Citation `Bakker2012SMS' on page 8 undefined on input l
+ine 121.
 
 [8
 
@@ -259,9 +335,18 @@ Chapter 5.
 
 ]
 Chapter 6.
+
+Package natbib Warning: Citation `bernier2010autism' on page 12 undefined on in
+put line 162.
+
 [12
 
-] [13]
+]
+
+Package natbib Warning: Citation `Aziz' on page 13 undefined on input line 172.
+
+
+[13]
 Chapter 7.
 [14
 
@@ -271,37 +356,36 @@ Chapter 8.
 
 ]
 Chapter 9.
-(./proposal.bbl [16
+<cal.png, id=58, 992.70876pt x 188.705pt>
+File: cal.png Graphic file (type png)
+ <use cal.png>
+Package pdftex.def Info: cal.png used on input line 198.
+(pdftex.def)             Requested size: 992.70634pt x 188.70453pt.
 
-] [17
 
-]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ” in font cmr12!
-) [18] (./proposal.aux) )
-(\end occurred inside a group at level 1)
+! Package caption Error: No float type 'figure' defined.
 
-### semi simple group (level 1) entered at line 7 (\begingroup)
-### bottom level 
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 		  \caption{
+                   asd}
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.199 		  \caption{
+                   asd}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
 Here is how much of TeX's memory you used:
- 2422 strings out of 493117
- 34392 string characters out of 6135433
- 102110 words of memory out of 5000000
- 5868 multiletter control sequences out of 15000+600000
- 9507 words of font info for 33 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 37i,7n,24p,789b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb>
-Output written on proposal.pdf (19 pages, 100529 bytes).
-PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 3470 strings out of 493117
+ 53337 string characters out of 6135433
+ 121150 words of memory out of 5000000
+ 6915 multiletter control sequences out of 15000+600000
