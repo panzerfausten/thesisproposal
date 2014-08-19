@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 AUG 2014 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 AUG 2014 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,7 +245,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./proposal.toc)
+(./proposal.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
@@ -253,75 +260,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
-
-Package natbib Warning: Citation `Lu2012' on page 2 undefined on input line 19.
-
-
-Missing character: There is no Â in font cmr12!
-Missing character: There is no   in font cmr12!
-
-Package natbib Warning: Citation `Sebastian2013556' on page 2 undefined on inpu
-t line 20.
-
-
-Package natbib Warning: Citation `PMID2235645' on page 2 undefined on input lin
-e 21.
-
-
-Package natbib Warning: Citation `Bakker2012SMS' on page 2 undefined on input l
-ine 26.
-
-
-Package natbib Warning: Citation `Ayzenberg2012' on page 2 undefined on input l
-ine 27.
-
 [2
 
-] [3]
+] [3] [4]
 Chapter 2.
-
-Package natbib Warning: Citation `Sebastian2013556' on page 4 undefined on inpu
-t line 45.
-
-
-Package natbib Warning: Citation `Sebastian2013556' on page 4 undefined on inpu
-t line 48.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
- [4
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+ [5
 
-]
-
-Package natbib Warning: Citation `Starner97augmentedreality' on page 5 undefine
-d on input line 62.
-
-
-Package natbib Warning: Citation `Dey2001' on page 5 undefined on input line 68
-.
-
-[5]
-
-Package natbib Warning: Citation `Rhodes97thewearable' on page 6 undefined on i
-nput line 77.
-
-[6] [7]
+] [6] [7]
 Chapter 3.
 
-Package natbib Warning: Citation `Ertin2011' on page 8 undefined on input line 
-108.
-
-
-Package natbib Warning: Citation `Rennert2013' on page 8 undefined on input lin
-e 113.
-
-
-Package natbib Warning: Citation `Bakker2012SMS' on page 8 undefined on input l
-ine 121.
+Overfull \hbox (4.41563pt too wide) in paragraph at lines 150--153
+[]\OT1/cmr/m/it/12 Stress@work\OT1/cmr/m/n/12 (Bakker \OT1/cmr/m/it/12 et al.\O
+T1/cmr/m/n/12 , 2012) es un marco de tra-bajo para la medici^^Son, en-tendimien
+to
+ []
 
 [8
 
@@ -335,57 +293,45 @@ Chapter 5.
 
 ]
 Chapter 6.
-
-Package natbib Warning: Citation `bernier2010autism' on page 12 undefined on in
-put line 162.
-
 [12
 
 ]
-
-Package natbib Warning: Citation `Aziz' on page 13 undefined on input line 172.
-
-
-[13]
 Chapter 7.
-[14
+[13
 
 ]
 Chapter 8.
-[15
+[14
 
 ]
 Chapter 9.
-<cal.png, id=58, 992.70876pt x 188.705pt>
-File: cal.png Graphic file (type png)
- <use cal.png>
-Package pdftex.def Info: cal.png used on input line 198.
-(pdftex.def)             Requested size: 992.70634pt x 188.70453pt.
+[15
 
+] (./proposal.bbl [16
 
-! Package caption Error: No float type 'figure' defined.
+]) [17] (./proposal.aux) )
+(\end occurred inside a group at level 1)
 
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 		  \caption{
-                   asd}
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.199 		  \caption{
-                   asd}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- 
+### semi simple group (level 1) entered at line 9 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 3470 strings out of 493117
- 53337 string characters out of 6135433
- 121150 words of memory out of 5000000
- 6915 multiletter control sequences out of 15000+600000
+ 3505 strings out of 493117
+ 53829 string characters out of 6135433
+ 121733 words of memory out of 5000000
+ 6941 multiletter control sequences out of 15000+600000
+ 9507 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,7n,38p,790b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on proposal.pdf (18 pages, 96432 bytes).
+PDF statistics:
+ 82 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
