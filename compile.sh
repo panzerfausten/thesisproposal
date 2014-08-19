@@ -1,6 +1,6 @@
 rm *.aux
 rm proposal.pdf
 latex proposal
-bibtex referencias
+bibtex proposal
 pdflatex proposal
 open proposal.pdf
