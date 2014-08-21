@@ -1,19 +1,19 @@
-\contentsline {chapter}{\numberline {1.}Resumen}{2}
-\contentsline {chapter}{\numberline {2.}Introducci\'on}{3}
-\contentsline {section}{\numberline {2.1}Escenarios de aplicaci\'on}{4}
-\contentsline {chapter}{\numberline {3.}Marco te\'orico}{6}
-\contentsline {section}{\numberline {3.1}Caracterizaci\'on fisiol\'ogica}{6}
-\contentsline {section}{\numberline {3.2}C\'omputo vestible}{6}
-\contentsline {section}{\numberline {3.3}C\'omputo vestible consciente del contexto}{7}
-\contentsline {chapter}{\numberline {4.}Trabajo previo}{9}
-\contentsline {chapter}{\numberline {5.}Problem\'atica}{11}
-\contentsline {chapter}{\numberline {6.}Objetivos}{12}
-\contentsline {section}{\numberline {6.1}General}{12}
-\contentsline {section}{\numberline {6.2}Espec\'ificos}{12}
-\contentsline {section}{\numberline {6.3}Preguntas de investigaci\'on}{12}
-\contentsline {chapter}{\numberline {7.}Metodolog\'ia}{13}
-\contentsline {chapter}{\numberline {8.}Importancia de la investigaci\'on}{14}
-\contentsline {chapter}{\numberline {9.}Limitaciones y suposiciones}{15}
-\contentsline {chapter}{\numberline {10.}Contribuci\'on al conocimiento}{16}
-\contentsline {chapter}{\numberline {11.}Calendario de actividades}{17}
+\contentsline {chapter}{\numberline {I.}Resumen}{2}
+\contentsline {chapter}{\numberline {II.}Introducci\'on}{3}
+\contentsline {section}{\numberline {II.1}Escenarios de aplicaci\'on}{4}
+\contentsline {chapter}{\numberline {III.}Marco te\'orico}{6}
+\contentsline {section}{\numberline {III.1}Caracterizaci\'on fisiol\'ogica}{6}
+\contentsline {section}{\numberline {III.2}C\'omputo vestible}{6}
+\contentsline {section}{\numberline {III.3}C\'omputo vestible consciente del contexto}{7}
+\contentsline {chapter}{\numberline {IV.}Trabajo previo}{9}
+\contentsline {chapter}{\numberline {V.}Problem\'atica}{11}
+\contentsline {chapter}{\numberline {VI.}Objetivos}{12}
+\contentsline {section}{\numberline {VI.1}General}{12}
+\contentsline {section}{\numberline {VI.2}Espec\'ificos}{12}
+\contentsline {section}{\numberline {VI.3}Preguntas de investigaci\'on}{12}
+\contentsline {chapter}{\numberline {VII.}Metodolog\'ia}{13}
+\contentsline {chapter}{\numberline {VIII.}Importancia de la investigaci\'on}{14}
+\contentsline {chapter}{\numberline {IX.}Limitaciones y suposiciones}{15}
+\contentsline {chapter}{\numberline {X.}Contribuci\'on al conocimiento}{16}
+\contentsline {chapter}{\numberline {XI.}Calendario de actividades}{17}
 \contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Referencias}}{18}
