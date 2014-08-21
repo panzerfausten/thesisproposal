@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 AUG 2014 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 AUG 2014 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -238,11 +238,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./proposal.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
@@ -253,43 +253,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Chapter 1.
 [2
 
-] [3] [4]
+]
 Chapter 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
+[3
+
+] [4] [5]
+Chapter 3.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
- [5
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+ [6
 
-] [6] [7]
-Chapter 3.
-
-Overfull \hbox (4.41563pt too wide) in paragraph at lines 152--155
-[]\OT1/cmr/m/it/12 Stress@work\OT1/cmr/m/n/12 (Bakker \OT1/cmr/m/it/12 et al.\O
-T1/cmr/m/n/12 , 2012) es un marco de tra-bajo para la medici^^Son, en-tendimien
-to
- []
-
-[8
-
-] [9]
+] [7] [8]
 Chapter 4.
-[10
+[9
 
 ]
+Missing character: There is no Â in font cmr12!
+Missing character: There is no   in font cmr12!
+ [10]
 Chapter 5.
+[11
+
+]
+Chapter 6.
 
 Overfull \hbox (7.0374pt too wide) in paragraph at lines 173--174
 []\OT1/cmr/m/n/12 >C^^Somo pueden los dis-pos-i-tivos vestibles de costo medio 
 de-tec-tar la an-siedad en cuidadores
  []
 
-[11
-
-]
-Chapter 6.
 [12
 
 ]
@@ -308,31 +304,35 @@ Chapter 9.
 Chapter 10.
 [16
 
-] (./proposal.bbl [17
+]
+Chapter 11.
+[17
 
-]) [18] (./proposal.aux) )
+] (./proposal.bbl [18
+
+]) [19] (./proposal.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 8 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3459 strings out of 493117
- 53187 string characters out of 6135433
- 121584 words of memory out of 5000000
- 6899 multiletter control sequences out of 15000+600000
+ 3471 strings out of 493117
+ 53421 string characters out of 6135433
+ 120874 words of memory out of 5000000
+ 6911 multiletter control sequences out of 15000+600000
  9507 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,38p,836b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,38p,1260b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on proposal.pdf (19 pages, 97308 bytes).
+Output written on proposal.pdf (20 pages, 99106 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

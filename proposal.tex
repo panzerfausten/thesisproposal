@@ -6,13 +6,14 @@
 	\usepackage{caption}
 	\begin{document}
 	\doublespace
-	\title{Inferencia de Ansiedad Por Medio de C\'omputo Vestible en Cuidadores de Pacientes con discapacidad intelectual}
+	\title{Estimaci\'on Ansiedad Por Medio de C\'omputo Vestible en Cuidadores de Pacientes con discapacidad intelectual}
 	\author{Dari\'en Alberto Miranda Boj\'orquez}
 	\maketitle
 	\newpage
 	\tableofcontents
 	\newpage
-
+		\chapter{Resumen}
+			%TODO: Rellenar esto
 		\chapter{Introducci\'on} 
 			%TODO: HABLAR DE ANSIEDAD
 			%El estr\'es es un fen\'omeno que la poblaci\'on de nuestra sociedad moderna experimenta cotidianamente. S\'olo en Estados Unidos, tres cuartos de sus
@@ -28,8 +29,7 @@
 			%embargo, periodos largos en este estado pueden llevar a problemas de salud como dolores de cabeza, fatiga, ansiedad y depresi\'on.
 			%como puede llegar a ser un desorden? (post traumatic disorder)
 			%computo vestible
-			%TODO:Que es la ansiedad?
-			La ansiedad es una emoci\'on caracterizada por sensaciones de tensi\'on, pensamientos de preocupaci\'on y cambios f\'isicos como incremento en la presi\'on arterial.\citep{psychologyapa}.Es com\'un que la poblaci\'on en general tenga episodios de ansiedad debido a los tipos de trabajo de nuestra sociedad moderna. Durante esos lapsos de tiempo, la persona suele experimentar un nivel de ansiedad el cual es una reacci\'on normal para lograr objetivos. Sin embargo, cuando la persona experimenta un nivel de ansiedad el cual es tan alto que no le permite manejar su vida normal, se dice que la persona tiene un desorden de ansiedad\citep{repetto2013}.
+			La ansiedad es una emoci\'on caracterizada por sensaciones de tensi\'on, pensamientos de preocupaci\'on y cambios f\'isicos como incremento en la presi\'on arterial.\citep{psychologyapa}.Una forma com\'un en donde la ansiedad se presenta en es el estr\'es. La relaci\'on que tiene con la ansiedad es que la ansiedad es la se\~nal psicofisiol\'ogica de que la respuesta al estr\'es ha sido iniciada \citep{PMID2235645}.Es com\'un que la poblaci\'on en general tenga episodios de ansiedad debido a los tipos de trabajo de nuestra sociedad moderna. Durante esos lapsos de tiempo, la persona suele experimentar un nivel de ansiedad el cual es una reacci\'on normal para lograr objetivos. Sin embargo, cuando la persona experimenta un nivel de ansiedad el cual es tan alto que no le permite manejar su vida normal, se dice que la persona tiene un desorden de ansiedad\citep{repetto2013}.
 
 			Uno de los sectores de poblaci\'on vulnerables, son los cuidadores de pacientes con autismo o demencia. Se encuentra documentado que los cuidadores, al llevar una carga f\'isica, cognitiva y emocional derivada de su labor les genera padecimientos como ansiedad, estr\'es, y hasta la muerte\citep{Chen2013}. Debido a que los cuidadores no necesariamente son personas con una formaci\'on profesional, estos efectos pueden verse aumentados. Por lo general, los cuidadores que son familiares del paciente son a\'un m\'as afectados ya que necesitan administrar el tiempo de trabajo, familia, actividades sociales y la actividad misma del cuidado del paciente.
 
@@ -49,6 +49,7 @@ La demencia es un s\'indrome del declive de las habilidades cognitivas. Los s\'i
 			de los cuidadores de pacientes con autismo o demencia. La siguiente secci\'on ejemplifica posibles escenarios de aplicaciones reales.
 			\section{Escenarios de aplicaci\'on}
 				\begin{enumerate}
+					%TODO:DELIMITAR LOS ESCENARIOS
 					\item \emph{Cuidadores de pacientes con autismo.}
 					Mar\'ia es una maestra novata en una escuela de autismo. Entre sus labores, se encuentra
 					atender a un grupo de mas de diez alumnos. Tratar con los ni\~nos es una labor muy exigente y estresante. Si Mar\'ia llega al l\'imite de su capacidad
@@ -85,7 +86,7 @@ La demencia es un s\'indrome del declive de las habilidades cognitivas. Los s\'i
 						\item \emph{Frecuencia Card\'iaca (HR):} Normalmente, suponen que el ritmo card\'iaco aumenta durante los periodos de ansiedad. 
 						\item \emph{Respuesta Galv\'anica de la piel (GBR):} De la misma manera que el ritmo card\'iaco, la respuesta galv\'anica de la piel suele cambiar durante los periodos de ansiedad.
 						\item \emph{An\'alisis del habla:} Algunas sutilezas del habla suelen notarse en los periodos de ansiedad, tales como tartamudeo o tonos de voz.
-						\item \emph{Procesamiento de gestos faciales:} %TODO: Rellenar esto
+						\item \emph{Frecuencia de parpadeo y evitaci\'on de la mirada:} Las personas con S\'indrome de Ansiedad Social (SAD), tienden a parpadear m\'as durante periodos de ansiedad social. Tambi\'en suelen evitar mirar directamente a los ojos a otras personas durante situaciones que les parecen inc\'omodas\citep{Kwon2009}. 
 					\end{itemize}
 			\section{C\'omputo vestible}
 				El c\'omputo vestible es aquel en el que la computadora es lo suficientemente peque\~na para poder ser "vestida" como ropa mientras que asiste en las
@@ -105,7 +106,7 @@ La demencia es un s\'indrome del declive de las habilidades cognitivas. Los s\'i
 		
 				Al encontrarse cerca del usuario mientras ayuda en las tareas diarias, el c\'omputo vestible debe de hacer uso del contexto para ayudar de una manera
 				que sea significante para el usuario. De no ser as\'i, puede generar frustraci\'on y desuso. Algunas de las caracter\'isticas del c\'omputo vestible
-				con respecto al contexto que deben de tener estos dispositivos seg\'un \citep{Rhodes97thewearable} son las siguientes:
+				con respecto al contexto que pueden tener estos dispositivos seg\'un \citep{Rhodes97thewearable} son las siguientes:
 				\begin{itemize}
 					\item{\emph{Port\'atil y al mismo tiempo operacional:}} Una computadora vestible es capaz de ser usada mientras que el usuario se encuentra
 					en movimiento. Al estar en movimiento, su contexto es mucho mas din\'amico: Cambia a nuevos espacios f\'isicos, encuentra nuevos objetos 
@@ -134,28 +135,17 @@ La demencia es un s\'indrome del declive de las habilidades cognitivas. Los s\'i
 				%como se usa todo esto para dar soporte a las actividades de la vida diaria?
 
 		\chapter{Trabajo previo}
-				Diferentes trabajos se han realizado para la detecci\'on de la ansiedad y fen\'omenos similares. A continuaci\'on se listan algunos de los mas relevantes:
-				\begin{itemize}
-					\item{\emph{AutoSense}\citep{Ertin2011}} es un dispositivo especialmente dise\~nado para el sensado del estado del estr\'es del usuario. Posee seis diferentes
-					sensores que pueden colectar informaci\'on cardiovascular, respiratoria, t\'ermica, de respuesta galv\'anica de la piel y de acelerometr\'ia. Los
-					datos son luego enviados por medio de una conexi\'on bluetooth a una aplicaci\'on en Android donde se realizan inferencias y provee una capa de 
-					servicio a otras aplicaciones.
-		
-					\item{\emph{FaceIt}\citep{Rennert2013}} es una herramienta que permite detectar, almacenar y recordar situaciones en las que el usuario presente ansiedad. Utiliza
-					de base la Terapia de Comportamiento Cognitiva (CBT por sus siglas en ingl\'es). Un dispositivo vestible tipo Memoto que cuelga del cuello del usuario
-					detecta por medio del ritmo card\'iaco los episodios de ansiedad y registrs solo en esos momentos video, audio y la localizaci\'on geogr\'afica. Posteriormente,
-					los datos son transmitidos a internet, y una p\'agina web les permite a los pacientes almacenar sus periodos y revivir las situaciones de manera
-					controlada. La investigaci\'on indica que: \emph{``las aplicaciones m\'oviles tienen la capacidad de incrementar
-					la autoconciencia y reducir los niveles de estr\'es"}. de manera que \emph{``Por estas razones, creemos que este enfoque tiene el potencial de asisistir
-					el tratamiento de comportamiento cognitivo para aquellos con ansiedad social"}.
+				Existen diversas t\'ecnicas para medir la ansiedad y padecimientos parecidos. Una de las formas tradicionales mas utilizadas, es por medio del \emph{Hamilton Anxiety Rating Scale (HAM-A)}\citep{Hamilton1959}. Esta prueba consiste en 21 preguntas que toman en cuenta aspectos tanto f\'isicos como psicol\'ogicos. Funciona para rangos de edad tanto como ni\~nos como adultos y es utilizado como una herramienta de medici\'on general. A pesar de tener una escala (desde no ansiedad hasta ansiedad severa)  requiere ser aplicado por un cl\'inico para ser interpretado correctamente. A pesar de que se ha demostrado que la prueba de Hamilton es v\'alida para medir ansiedad en adolescentes \citep{CLARK1994354}, se considera incierto si pacientes con discapacidades mentales como demencia pueden completar la prueba de Hamilton sin modificaciones de manera confiable\citep{Bradford2013125}.
 
-					\item{\emph{Stress@work}\citep{Bakker2012SMS}} es un marco de trabajo para la medici\'on, entendimiento y predicci\'on y manejo del estr\'es. Utiliza la Respuesta
-					Galv\'anica de la piel y los eventos calendarizados en Microsoft Outlook para inferir y predecir periodos de estr\'es. Al detectar los periodos de
-					carga de estr\'es, da recomendaciones de recalendarizaci\'on de actividades para balancear dichas cargas.
-				\end{itemize}
+				Otros trabajos han utilizado el c\'omputo vestible para medir ansiedad. {\emph{FaceIt}\citep{Rennert2013}} y {\emph{AutoSense}\citep{Ertin2011}} utilizan dispositivos dise\~nados en laboratorio que registran datos de frecuencia card\'iaca y permiten detectar periodos de ansiedad. FaceIt utiliza un dispositivo tipo Memoto modificado que cuelga del cuello del usuario y permite detectar, almacenar y recordar situaciones de ansiedad. Sin embargo, no es explicada claramente la manera en que consideran al aumento de frecuencia cardiaca como un periodo de ansiedad y no muestran ning\'un tipo de validaci\'on en personas con des\'ordendes de ansiedad. AutoSense va mas all\'a, presentan una validaci\'on tanto de los enlaces de red como del software utilizado y de la comodidad al usuario. Utiliza t\'ecnicas de ventanas y de extracci\'on de caracter\'isticas para procesar los datos y una capa de software especializada para realizar inferencias de estr\'es, postura y actividad, calidad de los datos y lenguaje. A pesar de que estas soluciones pueden capturar datos de una manera muy robusta, es dif\'icil la propagaci\'on del hardware ya que son instrumentos no comerciales y dif\'iciles de obtener para la poblaci\'on general.
+
+				Otra de las t\'ecnicas radica en el seguimiento de los ojos. En un estudio \citep{Kwon2009} mide el grado de ansiedad en base a la evaci\'on de la mirada y el parapadeo durante una entrevista simulada por medio de un dispositivo especializado en seguimiento de los ojos. Establece una m\'etrica para especificar la cantidad de parpadeo y evaci\'on de la vista durante lapsos de ansiedad inducida. Sus resultados indican que a pesar de haber podido inducir ansiedad con modelos de entrevistadores 3D, si pudieron hacerlo con personas reales, y que la frecuencia de parpadeo y evaci\'on de mirada podr\'ia ser una forma de medir la ansiedad. Otro estudio hace uso de Google Glass para la decci\'on de actividades por medio del sensor infrarrojo de proximidad y de movimiento. Utilizaron el algoritmo clasificador j48 para detectar de entre 8 diferentes actividades. Desarrollaron una t\'ecnica para la detecci\'on del parpadeo con una precisi\'on variante de 85\% a 99\% e indican que a pesar de no ser tan exactos para ciertas aplicaciones, indican que los sensores de estos dispositivos contienen informaci\'on valiosa que pueden complementar a otros sensores mas com\'unmente utilizados como sonido, video y movimiento \citep{Ishimaru2014}
+					
 		\chapter{Problem\'atica}
 			%comparar los actuales de self report con el metodo actual...
+			%decir que los metodos actuales no utilian hardware del mercado a
 		\chapter{Objetivos}
+			%TODO:REVISAR ESTO
 			\section{General}
 				\begin{enumerate}
 					\item Proponer un m\'etodo no intrusivo, basado en dispositivos vestibles de costo medio para detectar la ansiedad en cuidadores de pacientes con problemas mentales.
@@ -192,7 +182,7 @@ La demencia es un s\'indrome del declive de las habilidades cognitivas. Los s\'i
 			La naturaleza de esta investigaci\'on requiere de dispositivos con sensores especializados como medidores de frecuencia cardi\'aca y resistencia galv\'anica de la piel o monitores de parpadeo montados en la cabeza entre otros. A pesar de que la tecnolog\'ia m\'ovil y vestible ha logrado una importante penetreaci\'on en el mercado, la l\'inea base de dispositivos no cuenta con dichos sensores. Al requerirse esta particularidad en los dispositivos, podr\'ian desprenderse subtareas como el contacto con empresas especializadas, espera de entrega, y entrenamiento en el desarrollo para estas tecnolog\'ias. Dichas tareas podr\'ian tomar un tiempo considerable en el proceso de investigaci\'on. Debido a esto, ser\'a importante organizar los tiempos muertos para evitar retrasos en la finalizaci\'on del estudio.
 			Por otro lado, el uso de dispositivos que a\'un no ingresan al mercado t\'ipico mexicano podr\'ia no representar el uso cotidiano del que la visi\'on del  c\'omputo ubicuo habla. Sin embargo, buscar\'an estrategias para combinar y adaptar la tecnolog\'ia disponible para lograr una situaci\'on mas realista.
 		\chapter{Contribuci\'on al conocimiento}
-			El desarrollo de esta investgiaci\'on contribuir\'a a la interacci\'on humano computadora en forma de un modelo que permita la inferencia de ansiedad utilizando dispositivos vestibles basado en sensado oportunista. As\'i de como recomendaciones para el dise\~no de aplicaciones futuras que utilicen este modelo.
+			El desarrollo de esta investgiaci\'on contribuir\'a al c\'omputo ubicuo forma de un modelo que permita la inferencia de ansiedad utilizando dispositivos vestibles basado en sensado oportunista. As\'i de como recomendaciones para el dise\~no de aplicaciones futuras que utilicen este modelo.
 		\chapter{Calendario de actividades}
 		%1 StressSense: detecting Stress in Unconstraner Acoustic Environments using smartphones
 	%2 A thoerical approach to stress and self-efficacy

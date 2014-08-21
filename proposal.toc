@@ -1,18 +1,19 @@
-\contentsline {chapter}{\numberline {1.}Introducci\'on}{2}
-\contentsline {section}{\numberline {1.1}Escenarios de aplicaci\'on}{3}
-\contentsline {chapter}{\numberline {2.}Marco te\'orico}{5}
-\contentsline {section}{\numberline {2.1}Caracterizaci\'on fisiol\'ogica}{5}
-\contentsline {section}{\numberline {2.2}C\'omputo vestible}{5}
-\contentsline {section}{\numberline {2.3}C\'omputo vestible consciente del contexto}{6}
-\contentsline {chapter}{\numberline {3.}Trabajo previo}{8}
-\contentsline {chapter}{\numberline {4.}Problem\'atica}{10}
-\contentsline {chapter}{\numberline {5.}Objetivos}{11}
-\contentsline {section}{\numberline {5.1}General}{11}
-\contentsline {section}{\numberline {5.2}Espec\'ificos}{11}
-\contentsline {section}{\numberline {5.3}Preguntas de investigaci\'on}{11}
-\contentsline {chapter}{\numberline {6.}Metodolog\'ia}{12}
-\contentsline {chapter}{\numberline {7.}Importancia de la investigaci\'on}{13}
-\contentsline {chapter}{\numberline {8.}Limitaciones y suposiciones}{14}
-\contentsline {chapter}{\numberline {9.}Contribuci\'on al conocimiento}{15}
-\contentsline {chapter}{\numberline {10.}Calendario de actividades}{16}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Referencias}}{17}
+\contentsline {chapter}{\numberline {1.}Resumen}{2}
+\contentsline {chapter}{\numberline {2.}Introducci\'on}{3}
+\contentsline {section}{\numberline {2.1}Escenarios de aplicaci\'on}{4}
+\contentsline {chapter}{\numberline {3.}Marco te\'orico}{6}
+\contentsline {section}{\numberline {3.1}Caracterizaci\'on fisiol\'ogica}{6}
+\contentsline {section}{\numberline {3.2}C\'omputo vestible}{6}
+\contentsline {section}{\numberline {3.3}C\'omputo vestible consciente del contexto}{7}
+\contentsline {chapter}{\numberline {4.}Trabajo previo}{9}
+\contentsline {chapter}{\numberline {5.}Problem\'atica}{11}
+\contentsline {chapter}{\numberline {6.}Objetivos}{12}
+\contentsline {section}{\numberline {6.1}General}{12}
+\contentsline {section}{\numberline {6.2}Espec\'ificos}{12}
+\contentsline {section}{\numberline {6.3}Preguntas de investigaci\'on}{12}
+\contentsline {chapter}{\numberline {7.}Metodolog\'ia}{13}
+\contentsline {chapter}{\numberline {8.}Importancia de la investigaci\'on}{14}
+\contentsline {chapter}{\numberline {9.}Limitaciones y suposiciones}{15}
+\contentsline {chapter}{\numberline {10.}Contribuci\'on al conocimiento}{16}
+\contentsline {chapter}{\numberline {11.}Calendario de actividades}{17}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Referencias}}{18}
