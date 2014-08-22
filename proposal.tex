@@ -8,15 +8,15 @@
 	\input{tcilatex}
 	\begin{document}
 	\doublespace
-	\title{Estimaci\'on de Ansiedad Por Medio de C\'omputo Vestible en Cuidadores de Pacientes con Discapacidad Intelectual}
+	\title{Detecci\'on de Ansiedad Por Medio de C\'omputo Vestible en Cuidadores de Pacientes con Discapacidad Intelectual}
 	\author{Dari\'en Alberto Miranda Boj\'orquez}
 	\maketitle
 	\newpage
 	\tableofcontents
 	\newpage
-		\chapter{Resumen}
+		%\chapter{Resumen}
 			%TODO: Rellenar esto
-			Los cuidadores de pacientes con discapacidades intelectuales como autismo y demencia suelen sufrir de problemas como la ansiedad. Los periodos largos de exposici\'on puede generar problemas de salud como dolores de cabeza, tensi\'on y hasta la muerte. Las capacidades de sensado continuo de los dispositivos vestibles abren la posibilidad de medir las se\~nales del cuerpo de los usuarios. En esta investigaci\'on se dise\~nar\'a un modelo que utilice dispositivos de c\'omputo vestible disponibles en el mercado para detectar la ansiedad en cuidadores. Se evaluar\'a tambi\'en en comparaci\'on con t\'ecnicas tradicionales como el auto reportado en situaciones reales.
+		%	Los cuidadores de pacientes con discapacidades intelectuales como autismo y demencia suelen sufrir de problemas como la ansiedad. Los periodos largos de exposici\'on puede generar problemas de salud como dolores de cabeza, tensi\'on y hasta la muerte. Las capacidades de sensado continuo de los dispositivos vestibles abren la posibilidad de medir las se\~nales del cuerpo de los usuarios. En esta investigaci\'on se dise\~nar\'a un modelo que utilice dispositivos de c\'omputo vestible disponibles en el mercado para detectar la ansiedad en cuidadores. Se evaluar\'a tambi\'en en comparaci\'on con t\'ecnicas tradicionales como el auto reportado en situaciones reales.
 		\chapter{Introducci\'on} 
 			%TODO: HABLAR DE ANSIEDAD
 			%El estr\'es es un fen\'omeno que la poblaci\'on de nuestra sociedad moderna experimenta cotidianamente. S\'olo en Estados Unidos, tres cuartos de sus
@@ -135,21 +135,24 @@ La demencia es un s\'indrome del declive de las habilidades cognitivas. Los s\'i
 				\end{itemize}
 
 		\chapter{Trabajo previo}
-				Existen diversas t\'ecnicas para medir la ansiedad y padecimientos parecidos. Una de las formas tradicionales mas utilizadas, es por medio del \emph{Hamilton Anxiety Rating Scale (HAM-A)}\citep{Hamilton1959}. Esta prueba consiste en 21 preguntas que toman en cuenta aspectos tanto f\'isicos como psicol\'ogicos. Funciona para rangos de edad tanto como ni\~nos como adultos y es utilizado como una herramienta de medici\'on general. A pesar de tener una escala (desde no ansiedad hasta ansiedad severa)  requiere ser aplicado por un cl\'inico para ser interpretado correctamente. A pesar de que se ha demostrado que la prueba de Hamilton es v\'alida para medir ansiedad en adolescentes \citep{CLARK1994354}, se considera incierto si pacientes con discapacidades mentales como demencia pueden completar la prueba de Hamilton sin modificaciones de manera confiable\citep{Bradford2013125}.
+				Existen diversas t\'ecnicas para medir la ansiedad y padecimientos parecidos. Una de las formas tradicionales mas utilizadas, es por medio del \emph{Hamilton Anxiety Rating Scale (HAM-A)}\citep{Hamilton1959}. Esta prueba consiste en 21 preguntas que toman en cuenta aspectos tanto f\'isicos como psicol\'ogicos. Funciona para rangos de edad tanto como ni\~nos como adultos y es utilizado como una herramienta de medici\'on general. A pesar de tener una escala (desde no ansiedad hasta ansiedad severa)  requiere ser aplicado por un cl\'inico para ser interpretado correctamente. A pesar de que se ha demostrado que la prueba de Hamilton es v\'alida para medir ansiedad en adolescentes \citep{CLARK1994354}, se considera incierto si pacientes con discapacidades intelectuales como demencia pueden completar la prueba de Hamilton sin modificaciones de manera confiable\citep{Bradford2013125}.
 
 				Otros trabajos han utilizado el c\'omputo vestible para medir ansiedad. {\emph{FaceIt}\citep{Rennert2013}} y {\emph{AutoSense}\citep{Ertin2011}} utilizan dispositivos dise\~nados en laboratorio que registran datos de frecuencia card\'iaca y permiten detectar periodos de ansiedad. FaceIt utiliza un dispositivo tipo Memoto modificado que cuelga del cuello del usuario y permite detectar, almacenar y recordar situaciones de ansiedad. Sin embargo, no es explicada claramente la manera en que detectan un periodo de ansiedad y no muestran ning\'un tipo de validaci\'on en personas con des\'ordendes de ansiedad. AutoSense va mas all\'a, presentan una validaci\'on tanto de los enlaces de red como del software utilizado y de la comodidad al usuario. Utiliza t\'ecnicas de ventanas y de extracci\'on de caracter\'isticas para procesar los datos y una capa de software especializada para realizar inferencias de estr\'es, postura y actividad, calidad de los datos y lenguaje. A pesar de que estas soluciones pueden capturar datos de una manera muy robusta, es dif\'icil la propagaci\'on del hardware ya que son instrumentos no comerciales y dif\'iciles de obtener para la poblaci\'on general.
+	
+				Un estudio se enfoc\'o en la detecci\'on del estr\'es en condiciones intermedias entre el laboratorio y el mundo real \citep{RamosHD14}. En el, un grupo de 20 sujetos (10 hombres y 10 mujeres) fueron sometidos a diferentes actividades f\'isicas. Mientras las realizaban, se les indujo estr\'es por medio de tres diferentes formas. Para obtener los datos, usaron una banda Zephyr Bluetooth y una BodyMedia Armband. Se les realizaron mediciones de: Frecuencia card\'iaca, Frecuencia de Respiraci\'on, Temperatura de la Piel, Acelaraci\'on y conductividad de la piel. Extrajeron caracter\'isticas de cada tipo de dato por medio de valores estad\'isticos como m\'inimos, m\'aximos y medias. Realizaron agrupaciones por medio de correlaciones entre diferentes tipos de datos como la frecuencia de respiraci\'on y frecuencia card\'iaca. Luego, clasificaron los datos para detectar la ansiedad por medio de diferentes clasificadores como el clasificador bayesanio ingenuo y la penalizaci\'on de cresta implementados en WEKA y Matlab. El uso de los datos en conjunto ofrece un 65\% de precisi\'on. A pesar de que otros m\'etodos ofrecen hasta el 90\%, explican que estos solo han sido probados en laboratorios y que su precisi\'on en campo no ha sido evaluada.
 
-				Otra de las t\'ecnicas radica en el seguimiento de los ojos. En un estudio \citep{Kwon2009} mide el grado de ansiedad en base a la evaci\'on de la mirada y el parapadeo durante una entrevista simulada por medio de un dispositivo especializado en seguimiento de los ojos. Establece una m\'etrica para especificar la cantidad de parpadeo y evaci\'on de la vista durante lapsos de ansiedad inducida. Sus resultados indican que a pesar de haber podido inducir ansiedad con modelos de entrevistadores 3D, si pudieron hacerlo con personas reales, y que la frecuencia de parpadeo y evaci\'on de mirada podr\'ia ser una forma de medir la ansiedad. Otro estudio hace uso de Google Glass para la decci\'on de actividades por medio del sensor infrarrojo de proximidad y de movimiento. Utilizaron el algoritmo clasificador j48 para detectar de entre 8 diferentes actividades. Desarrollaron una t\'ecnica para la detecci\'on del parpadeo con una precisi\'on variante de 85\% a 99\% e indican que a pesar de no ser tan exactos para ciertas aplicaciones, indican que los sensores de estos dispositivos contienen informaci\'on valiosa que pueden complementar a otros sensores mas com\'unmente utilizados como sonido, video y movimiento \citep{Ishimaru2014}
+				Otra de las t\'ecnicas radica en el seguimiento de los ojos. En un estudio \citep{Kwon2009} mide el grado de ansiedad en base a la evasi\'on de la mirada y el parapadeo durante una entrevista simulada por medio de un dispositivo especializado en seguimiento de los ojos. Establece una m\'etrica para especificar la cantidad de parpadeo y evasi\'on de la vista durante lapsos de ansiedad inducida. Sus resultados indican que a pesar de no haber podido inducir ansiedad con modelos de entrevistadores 3D, si pudieron hacerlo con personas reales, y que la frecuencia de parpadeo y evasi\'on de mirada podr\'ia ser una forma de medir la ansiedad. Otro estudio hace uso de Google Glass para la decci\'on de actividades por medio del sensor infrarrojo de proximidad y de movimiento. Utilizaron el algoritmo clasificador j48 para detectar de entre 8 diferentes actividades. Desarrollaron una t\'ecnica para la detecci\'on del parpadeo con una precisi\'on variante de 85\% a 99\% e indican que a pesar de no ser tan exactos para ciertas aplicaciones, indican que los sensores de estos dispositivos contienen informaci\'on valiosa que pueden complementar a otros sensores mas com\'unmente utilizados como sonido, video y movimiento \citep{Ishimaru2014}
 					
 		\chapter{Problem\'atica}
 			%comparar los actuales de self report con el metodo actual...
 			%decir que los metodos actuales no utilian hardware del mercado a
-			Se encuentra documentado que la ansiedad es un problema serio que afecta a los cuidadores de pacientes con discapacidad intelectual. Los m\'etodos tradicionales requieren interrumpir las actividades del usuario, no son en tiempo real y requieren de personal especializado. Las intervenciones tecnol\'ogicas, a pesar de que utilizan dispositivos vestibles, son soluciones de laboratorio y el hardware no se encuentran disponible en el mercado por lo que se dificulta su replicaci\'on. 
+			%Se encuentra documentado que la ansiedad es un problema serio que afecta a los cuidadores de pacientes con discapacidad intelectual. Los m\'etodos tradicionales requieren interrumpir las actividades del usuario, no son en tiempo real y requieren de personal especializado. Las intervenciones tecnol\'ogicas, a pesar de que utilizan dispositivos vestibles, son soluciones de laboratorio y el hardware no se encuentran disponible en el mercado por lo que se dificulta su replicaci\'on. 
+			Los m\'etodos actuales para la detecci\'on de ansiedad no toman en cuenta escenarios de cuidadores. Los tipos de datos y la manera en que son procesados pueden no ser adecuados para las situaciones en que se presenta la ansiedad en los cuidadores.
 		\chapter{Objetivos}
 			%TODO:REVISAR ESTO
 			\section{General}
 				\begin{enumerate}
-					\item Proponer un m\'etodo no intrusivo, basado en dispositivos vestibles disponibles en el mercado  para estimar la ansiedad en cuidadores de pacientes con problemas mentales y evaluarlo en comparaci\'on a los m\'etodos tradicionales de auto reportado.
+					\item Proponer o adaptar un m\'etodo no intrusisvo basado en dispositivos vestibles para detectar la ansiedad en cuidadores de pacientes con discapacidades intelectuales que utilice diferentes se\~nales biof\'isicas y evaluarlo en comparaci\'on a los m\'etodos tradicionales de auto reportado.
 				\end{enumerate}
 			\section{Espec\'ificos}
 				\begin{enumerate}
@@ -160,29 +163,24 @@ La demencia es un s\'indrome del declive de las habilidades cognitivas. Los s\'i
 				\end{enumerate}
 			\section{Preguntas de investigaci\'on}
 				\begin{enumerate}
-					\item >C\'omo pueden los dispositivos vestibles disponibles en el mercado detectar la ansiedad en cuidadores de pacientes con discapacidad intelectual?
+					\item >C\'omo debe de ser un m\'etodo para la detecci\'on de ansiedad en cuidadores de pacientes con discapacidades intelectuales? 
 				\end{enumerate}
 		\chapter{Metodolog\'ia}
 				\begin{enumerate}
-					\item Revisi\'on de la literatura.
-					\item Identificaci\'on de los tipos de se\~nales mas significativas para caracterizar la ansiedad en el escenario seleccionado.
-					\item Dise\~no de un m\'etodo para estimar la ansiedad en base a las se\~nales identificadas.
-					\item Revisi\'on y selecci\'on de los dispositivos vestibles disponibles en el mercado para los tipos de datos seleccionados.
-					\item Implementaci\'on del modelo en los disposisitivos vestibles seleccionados.
-					\item Validaci\'on de la implementaci\'on comparando con los m\'etodos tradcionales de auto reportado. 
+					\item Observaci\'on de campo para entender los problemas de los cuidadores.
+					\item Levantado de datos por medio de dispositivos vestibles.
+					\item Dise\~no o adaptaci\'on de un m\'etodo para detectar ansiedad.
+					\item Evaluaci\'on del m\'etodo comparado con los m\'etodos tradicionales de auto reportado.
 					\item Presentaci\'on de resultados.
 				\end{enumerate}
 		\chapter{Importancia de la investigaci\'on}
-				Una de las finalidades de la tecnlog\'ia es ayudar en los problemas de los humanos. Los avances recientes en c\'omputo vestible muestran
-				ser una poderosa herramienta para monitorear nuestros cuerpos, debido a que son f\'aciles de vestir, cuentan con diversos sensores y se pueden
-				llevar con nosotros una buen parte del d\'ia. Ese monitoreo constante es \'util tambi\'en para mejorar la calidad de vida en personas con muchos periodos de ansiedad. %Escenarios antes descritos?
-				
+				El desarrollo de m\'etodos especializados para la detecci\'on de ansiedad en cuidadores de personas con discapacidades mentales ayuda a cubrir mas escenarios que no han sido cubiertos. Sirve tambi\'en como una primera vista de c\'omo el c\'omputo vestible puede ayudar a la salud mental de  personas con este problema en particular.
 					\chapter{Limitaciones y suposiciones}
 			Se tomar\'an en cuenta solamente la detecci\'on de ansiedad bajo ciertos escenarios, debido a que las situaciones en las que una persona puede sufrir ansiedad son muy variadas como para englobarlas en una sola soluci\'on tecnol\'ogica.
 			La naturaleza de esta investigaci\'on requiere de dispositivos con sensores especializados como medidores de frecuencia cardi\'aca y resistencia galv\'anica de la piel o monitores de parpadeo montados en la cabeza entre otros. A pesar de que la tecnolog\'ia m\'ovil y vestible ha logrado una importante penetreaci\'on en el mercado, la l\'inea base de dispositivos no cuenta con dichos sensores. Al requerirse esta particularidad en los dispositivos, podr\'ian desprenderse subtareas como el contacto con empresas especializadas, espera de entrega, y entrenamiento en el desarrollo para estas tecnolog\'ias. Dichas tareas podr\'ian tomar un tiempo considerable en el proceso de investigaci\'on. Debido a esto, ser\'a importante organizar los tiempos muertos para evitar retrasos en la finalizaci\'on del estudio.
 			Por otro lado, el uso de dispositivos que a\'un no ingresan al mercado t\'ipico mexicano podr\'ia no representar el uso cotidiano del que la visi\'on del  c\'omputo ubicuo habla. Sin embargo, buscar\'an estrategias para combinar y adaptar la tecnolog\'ia disponible para lograr una situaci\'on mas realista.
 		\chapter{Contribuci\'on al conocimiento}
-			El desarrollo de esta investgiaci\'on contribuir\'a al c\'omputo ubicuo forma de un modelo que permita la inferencia de ansiedad utilizando dispositivos vestibles basado en sensado oportunista. As\'i de como recomendaciones para el dise\~no de aplicaciones futuras que utilicen este modelo.
+			El desarrollo de esta investgiaci\'on contribuir\'a al c\'omputo ubicuo forma de un m\'etodo que permita la detecci\'on de ansiedad utilizando dispositivos vestibles basado en sensado oportunista. As\'i de como recomendaciones para el dise\~no de aplicaciones futuras que utilicen este m\'etodo.
 		\chapter{Calendario de actividades}
 			La siguiente figura muestra el calendario de actividades para la investigaci\'on.
 			\begin{figure}[h]

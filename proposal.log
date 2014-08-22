@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 AUG 2014 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 AUG 2014 00:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,59 +333,56 @@ Overfull \hbox (2.75305pt too wide) detected at line 15
 Cap\'{i}tulo I.
 [2
 
-]
+] [3] [4]
 Cap\'{i}tulo II.
-[3
-
-] [4] [5]
-Cap\'{i}tulo III.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
- [6
+ [5
 
-] [7] [8]
-Cap\'{i}tulo IV.
+] [6] [7]
+Cap\'{i}tulo III.
+[8
+
+]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
-[9
-
-] [10]
-Cap\'{i}tulo V.
+ [9] [10]
+Cap\'{i}tulo IV.
 [11
 
 ]
-Cap\'{i}tulo VI.
+Cap\'{i}tulo V.
 [12
 
 ]
-Cap\'{i}tulo VII.
+Cap\'{i}tulo VI.
 [13
 
 ]
-Cap\'{i}tulo VIII.
+Cap\'{i}tulo VII.
 [14
 
 ]
-Cap\'{i}tulo IX.
+Cap\'{i}tulo VIII.
 [15
 
 ]
-Cap\'{i}tulo X.
+Cap\'{i}tulo IX.
 [16
 
 ]
-Cap\'{i}tulo XI.
-<cal.png, id=61, 992.70876pt x 188.705pt>
+Cap\'{i}tulo X.
+<cal.png, id=61, 990.70125pt x 189.70876pt>
 File: cal.png Graphic file (type png)
  <use cal.png>
-Package pdftex.def Info: cal.png used on input line 190.
-(pdftex.def)             Requested size: 496.35316pt x 94.35226pt.
+Package pdftex.def Info: cal.png used on input line 188.
+(pdftex.def)             Requested size: 495.34941pt x 94.85414pt.
 
-Overfull \hbox (24.32193pt too wide) in paragraph at lines 190--191
+Overfull \hbox (23.31818pt too wide) in paragraph at lines 188--189
  [][] 
  []
 
@@ -393,30 +390,30 @@ Overfull \hbox (24.32193pt too wide) in paragraph at lines 190--191
 
  <./cal.png>] (./proposal.bbl [18
 
-]
+] [19]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [19]) [20] (./proposal.aux) )
+) [20] (./proposal.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 10 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4428 strings out of 493117
- 63753 string characters out of 6135433
- 139301 words of memory out of 5000000
- 7844 multiletter control sequences out of 15000+600000
+ 4431 strings out of 493117
+ 63804 string characters out of 6135433
+ 140355 words of memory out of 5000000
+ 7847 multiletter control sequences out of 15000+600000
  10932 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,38p,1272b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,38p,1283b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on proposal.pdf (21 pages, 129759 bytes).
+Output written on proposal.pdf (21 pages, 131055 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
