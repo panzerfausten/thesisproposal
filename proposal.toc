@@ -15,4 +15,3 @@
 \contentsline {chapter}{\numberline {VIII.}Limitaciones y suposiciones}{15}
 \contentsline {chapter}{\numberline {IX.}Contribuci\'on al conocimiento}{16}
 \contentsline {chapter}{\numberline {X.}Calendario de actividades}{17}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Referencias}}{18}

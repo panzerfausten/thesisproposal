@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.9.2)  10 NOV 2014 16:54
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 SEP 2014 19:26
+>>>>>>> b3faf3333a1cf56b76e23c5ecd772394775eca1e
 entering extended mode
  %&-line parsing enabled.
 **proposal
@@ -115,9 +119,10 @@ x \@tempboxa \hfil }\fi \vskip \belowcaptionskip .
 \c@dal@supervisornum=\count94
 \c@dal@readernum=\count95
 ) (./tcilatex.tex
-TCILATEX Macros for Scientific Word 5.0 <13 Feb 2003>.
+TCILATEX Macros for Scientific Word 3.0 <05 August 1998>.
 NOTICE: This macro file is NOT proprietary and may be freely copied and distrib
 uted.
+<<<<<<< HEAD
 \msipdfoutput=\count96
 \@hour=\count97
 \@minute=\count98
@@ -197,6 +202,31 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )) (./proposal.aux)
+=======
+\@hour=\count96
+\@minute=\count97
+\GRAPHICSTYPE=\count98
+\draft=\count99
+\dispkind=\count100
+\theight=\dimen120
+LaTeX Info: Redefining \rm on input line 556.
+LaTeX Info: Redefining \sf on input line 557.
+LaTeX Info: Redefining \tt on input line 558.
+LaTeX Info: Redefining \bf on input line 559.
+LaTeX Info: Redefining \it on input line 560.
+LaTeX Info: Redefining \sl on input line 561.
+LaTeX Info: Redefining \sc on input line 562.
+\c@theorem=\count101
+\c@axiom=\count102
+\c@remark=\count103
+\c@example=\count104
+\c@exercise=\count105
+\c@definition=\count106
+\c@equationnumber=\count107
+\intno@=\count108
+\ex@=\dimen121
+) (./proposal.aux)
+>>>>>>> b3faf3333a1cf56b76e23c5ecd772394775eca1e
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -255,6 +285,7 @@ driver: pdftex
 -----------------------
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
+<<<<<<< HEAD
 \scratchcounter=\count121
 \scratchdimen=\dimen125
 \scratchbox=\box28
@@ -265,12 +296,51 @@ driver: pdftex
 \MPscratchDim=\dimen126
 \MPnumerator=\count125
 \everyMPtoPDFconversion=\toks22
+=======
+\scratchcounter=\count109
+\scratchdimen=\dimen122
+\scratchbox=\box26
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen123
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks17
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+>>>>>>> b3faf3333a1cf56b76e23c5ecd772394775eca1e
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+<<<<<<< HEAD
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./proposal.toc
+=======
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+
+[1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./proposal.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+
+>>>>>>> b3faf3333a1cf56b76e23c5ecd772394775eca1e
 Overfull \hbox (2.75305pt too wide) detected at line 15
 \OT1/cmr/bx/n/12 VIII. 
  []
@@ -283,6 +353,29 @@ Overfull \hbox (2.75305pt too wide) detected at line 15
 
 ]
 Cap\'{i}tulo I.
+
+Package natbib Warning: Citation `psychologyapa' on page 2 undefined on input l
+ine 35.
+
+
+Package natbib Warning: Citation `PMID2235645' on page 2 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `repetto2013' on page 2 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Chen2013' on page 2 undefined on input line 3
+7.
+
+
+Package natbib Warning: Citation `bernier2010autism' on page 2 undefined on inp
+ut line 40.
+
+
+Package natbib Warning: Citation `Aziz' on page 2 undefined on input line 43.
+
 [2
 
 ] [3] [4]
@@ -293,16 +386,66 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
- [5
 
-] [6] [7]
+
+Package natbib Warning: Citation `Kwon2009' on page 5 undefined on input line 9
+0.
+
+
+Package natbib Warning: Citation `Starner97augmentedreality' on page 5 undefine
+d on input line 94.
+
+[5
+
+]
+
+Package natbib Warning: Citation `Dey2001' on page 6 undefined on input line 10
+2.
+
+
+Package natbib Warning: Citation `Rhodes97thewearable' on page 6 undefined on i
+nput line 110.
+
+[6] [7]
 Cap\'{i}tulo III.
+
+Package natbib Warning: Citation `Hamilton1959' on page 8 undefined on input li
+ne 138.
+
+
+Package natbib Warning: Citation `CLARK1994354' on page 8 undefined on input li
+ne 138.
+
+
+Package natbib Warning: Citation `Bradford2013125' on page 8 undefined on input
+ line 138.
+
+
+Package natbib Warning: Citation `Rennert2013' on page 8 undefined on input lin
+e 140.
+
+
+Package natbib Warning: Citation `Ertin2011' on page 8 undefined on input line 
+140.
+
+
+Package natbib Warning: Citation `RamosHD14' on page 8 undefined on input line 
+142.
+
 [8
 
 ]
+
+Package natbib Warning: Citation `Kwon2009' on page 9 undefined on input line 1
+44.
+
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
- [9] [10]
+
+Package natbib Warning: Citation `Ishimaru2014' on page 9 undefined on input li
+ne 144.
+
+[9] [10]
 Cap\'{i}tulo IV.
 [11
 
@@ -330,18 +473,22 @@ Cap\'{i}tulo IX.
 Cap\'{i}tulo X.
 [17
 
+<<<<<<< HEAD
 ] (./proposal.bbl [18
+=======
+ <./cal.png>]
+No file proposal.bbl.
 
-] [19]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ” in font cmr12!
-) [20] (./proposal.aux) )
+Package natbib Warning: There were undefined citations.
+>>>>>>> b3faf3333a1cf56b76e23c5ecd772394775eca1e
+
+(./proposal.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 10 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  3642 strings out of 493848
  49948 string characters out of 1152824
  120108 words of memory out of 3000000
@@ -357,6 +504,25 @@ s/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on proposal.pdf (21 pages, 109740 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
+=======
+ 3908 strings out of 493117
+ 57296 string characters out of 6135433
+ 131362 words of memory out of 5000000
+ 7344 multiletter control sequences out of 15000+600000
+ 9807 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,7n,38p,1283b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on proposal.pdf (18 pages, 120952 bytes).
+PDF statistics:
+ 85 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+>>>>>>> b3faf3333a1cf56b76e23c5ecd772394775eca1e
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
