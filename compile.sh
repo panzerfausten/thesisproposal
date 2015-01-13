@@ -3,4 +3,4 @@ rm proposal.pdf
 bibtex proposal
 pdflatex proposal
 pdflatex proposal
-open proposal.pdf
+okular proposal.pdf
